@@ -3,9 +3,7 @@
   padding: 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-/* ***************** */
-/* SECCION I N I C I O */
-/* ***************** */
+
 #inicio{
   height: 100vh;
   display: flex;
@@ -35,7 +33,7 @@
   list-style: none;
 }
 #inicio header .contenido-header .logo{
-  color: #ff8f46;
+  color: #3168ff;
   font-size: 22px;
 }
 #inicio header .contenido-header nav ul li{
@@ -53,11 +51,11 @@
   margin: 0px 20px;
 }
 #inicio header .contenido-header nav ul li:hover i{
-  color: #ff8f46;
+  color: #3168ff;
 }
 #inicio header .contenido-header .social a{
   display: inline-block;
-  background-color: #ff8f46;
+  background-color: #3168ff;
   text-decoration: none;
   color: #fff;
   padding: 10px 20px;
@@ -102,7 +100,7 @@
   margin-top: 20px;
   font-size: 20px;
   border:none;
-  background-color: #ff8f46;
+  background-color: #3168ff;
   color: #fff;
   padding: 7px 25px;
   border-radius: 30px;
@@ -121,101 +119,104 @@
 #inicio .gallery-cell img{
   display: block;
   width: 100vw;
-  height: 100vh;
+    height: 100vh;
   object-fit: cover;
+ 
 }
 
 
 /* ***************** */
 /* SECCION S A B O R E S */
 /* ***************** */
-#sabores{
+#cortes{
   padding: 50px 0;
 }
-#sabores h2{
+#cortes h2{
   text-align: center;
   font-weight: bold;
   font-size: 30px;
 }
-#sabores .fila{
+#cortes .fila{
   display: flex;
   max-width: 1100px;
   margin: auto;
 }
-#sabores .fila .item img{
+#cortes .fila .item img{
   max-width: 80px;
 }
-#sabores .fila .item{
+#cortes .fila .item{
   display: flex;
   align-items:center;
   margin: 20px 10px;
   padding: 5px;
 }
-#sabores .fila .item:hover{
-  background-color:#ff8f46
+#cortes .fila .item:hover{
+  background-color:#3168ff
 }
-#sabores .fila .item .info{
+#cortes .fila .item .info{
   margin-left: 15px;
   font-size: 14px;
 }
-#sabores button{
+#cortes button{
   display: block;
   width: fit-content;
   margin: auto;
   margin-top: 20px;
   font-size: 20px;
   border:none;
-  background-color: #ff8f46;
+  background-color: #3168ff;
   color: #fff;
   padding: 7px 25px;
   border-radius: 30px;
   cursor: pointer;
 }
-
+body{
+  overflow-x: hidden;
+}
 /* ***************** */
 /* SECCION P L A T O S */
 /* ***************** */
-#platos h2{
+#carta h2{
   text-align: center;
   font-weight: bold;
   font-size: 30px;
   margin-bottom: 30px;
 }
-#platos .fila{
+#carta .fila{
   max-width: 1100px;
   margin:auto;
   display: flex;
   justify-content: center;
 }
-#platos .fila .item{
+#carta .fila .item{
   width: 33%;
   position:relative;
   overflow: hidden;
 }
-#platos .fila .item img{
+#carta .fila .item img{
   width: 100%;
   display: block;
 }
-#platos .fila .item p{
+#carta .fila .item p{
   position:absolute;
   width: 100%;
   bottom: -100%;
   padding: 10px;
-  background-color:#ff8f46;
+  background-color:#3168ff;
   color: #fff;
   transition: .5s;
 }
-#platos .fila .item:hover p{
+#carta .fila .item:hover p{
   bottom: 0;
 }
-#platos button{
+#carta button{
   display: block;
   width: fit-content;
   margin: auto;
   margin-top: 20px;
   font-size: 20px;
   border:none;
-  background-color: #ff8f46;
+  background-color: #3168ff;
   color: #fff;
   padding: 7px 25px;
   border-radius: 30px;
@@ -248,7 +249,7 @@
   display: block;
   width: 100px;
   border-radius: 50%;
-  border: 2px solid #ff8f46   ;
+  border: 2px solid #3168ff   ;
   margin-right: 30px;
 }
 .galeria-blog .gallery-cell h3{
@@ -265,7 +266,7 @@
   margin-top: 20px;
   font-size: 20px;
   border:none;
-  background-color: #ff8f46;
+  background-color: #3168ff;
   color: #fff;
   padding: 7px 25px;
   border-radius: 30px;
@@ -276,7 +277,7 @@
 /* SECCION C O N T A C TO */
 /* ***************** */
 #contacto{
-  background-color: #ff8f46;
+  background-color: #3168ff;
   padding: 50px 0;
 }
 #contacto .fila{
@@ -334,14 +335,14 @@
   }
 }
 @media screen and (max-width:700px) {
-  #sabores .fila{
+  #cortes .fila{
       display: block;
   }
-  #platos .fila{
+  #carta .fila{
       display: block;
       width: 100%;
   }
-  #platos .fila .item{
+  #carta .fila .item{
       width: 100%;
   }
   #inicio header .contenido-header nav{
